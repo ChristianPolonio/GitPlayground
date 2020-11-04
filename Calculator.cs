@@ -4,14 +4,14 @@ namespace GitPlayground
 {
     public class Calculator
     {
-       public int Add(int a, int b)
+       public int Add(int summandA, int summandB)
        {
-          return a + b;
+          return summandA + summandB;
        }
 
-       public int Sub(int a, int b)
+       public int Sub(int minuend, int subtrahend)
        {
-          return a - b;
+          return minuend - subtrahend;
        }
 
     }
