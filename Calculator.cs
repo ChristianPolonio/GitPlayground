@@ -24,7 +24,7 @@ namespace GitPlayground
        {
           // TODO Think about loss of fraction
 
-          return (float) a / b;
+          return (float) b / a;
        }
 
 
