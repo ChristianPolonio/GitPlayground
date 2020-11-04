@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 
 namespace GitPlayground
 {
@@ -23,7 +24,7 @@ namespace GitPlayground
        {
           // TODO Think about loss of fraction
 
-          return a / b;
+          return (float) a / b;
        }
 
 
