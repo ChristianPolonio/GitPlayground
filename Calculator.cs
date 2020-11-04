@@ -22,13 +22,8 @@ namespace GitPlayground
 
        public float Div(int a, int b)
        {
-          // TODO Think about loss of fraction
 
           return (float) b / a;
        }
-
-
-
-
-   }
+    }
 }
