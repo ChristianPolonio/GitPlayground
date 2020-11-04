@@ -19,5 +19,15 @@ namespace GitPlayground
           return a * b;
        }
 
-    }
+       public float Div(int a, int b)
+       {
+          // TODO Think about loss of fraction
+
+          return a / b;
+       }
+
+
+
+
+   }
 }
